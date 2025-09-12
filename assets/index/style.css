@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+/* Start Date Section */
+.start-date-section {
+  text-align: center;
+}
+
+.start-date-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.start-date-section .countdown {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.start-date-section .apply-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.start-date-section .apply-button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+/* Event Section */
+.event-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.event-section .event-image img,
+.about-us-section .about-image img,
+.previous-events-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.event-section .event-description {
+  flex: 1;
+}
+
+/* About Us Section */
+.about-us-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.about-us-section .about-description {
+  flex: 1;
+}
+
+/* Contact Us Section */
+.contact-us-section {
+  text-align: center;
+}
+
+.contact-us-section .contact-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-us-section .contact-button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+/* Previous Events Section */
+.previous-events-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.previous-events-section .prev-events-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.previous-events-section .prev-events-button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+.previous-events-section .prev-event-image {
+  flex: 1;
+  text-align: center;
+}
