@@ -1,9 +1,12 @@
 body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #fff;
-  color: #333;
+  background-color: #000;
+  color: {{{color0}}};
 }
 
 section {
@@ -13,6 +16,12 @@ section {
 /* Start Date Section */
 .start-date-section {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  background-color: {{{color2}}};
 }
 
 .start-date-section h1 {
@@ -25,18 +34,10 @@ section {
   margin-bottom: 20px;
 }
 
-.start-date-section .apply-button {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.start-date-section .apply-button:hover {
-  background-color: #555;
-  transform: scale(1.05);
+.start-date-section .countdown .countdown-cell {
+  padding: 16px;
+  border-radius: 16px;
+  background-color: {{{color3}}};
 }
 
 /* Event Section */
@@ -45,6 +46,9 @@ section {
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: {{{color3}}};
 }
 
 .event-section .event-image img,
@@ -65,6 +69,9 @@ section {
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: {{{color2}}};
 }
 
 .about-us-section .about-description {
@@ -74,20 +81,15 @@ section {
 /* Contact Us Section */
 .contact-us-section {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: {{{color3}}};
 }
 
-.contact-us-section .contact-button {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.contact-us-section .contact-button:hover {
-  background-color: #555;
-  transform: scale(1.05);
+.contact-us-section h1
+{
+  padding: 0 20px;
 }
 
 /* Previous Events Section */
@@ -97,20 +99,7 @@ section {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-}
-
-.previous-events-section .prev-events-button {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.previous-events-section .prev-events-button:hover {
-  background-color: #555;
-  transform: scale(1.05);
+  background-color: {{{color2}}};
 }
 
 .previous-events-section .prev-event-image {

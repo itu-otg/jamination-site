@@ -1,0 +1,14 @@
+---
+
+color0: "#FFFFFF"
+color0_alt: "#CCDDAA"
+color1: "#CC6600"
+color2: "#DD9955"
+color3: "#EEAA66"
+
+organizers:
+- name: İTÜ OTG
+  url: http://otg.itu.edu.tr/
+  icon: shared/otg.png
+
+---

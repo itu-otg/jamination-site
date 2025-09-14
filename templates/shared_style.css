@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #CC6600;
+  background-color: {{{color1}}};
 }
 
 .site-header .logo img {
@@ -26,7 +26,7 @@
 
 .nav-buttons .underline-hover {
   text-decoration: none;
-  color: #FFFFFF;
+  color: {{{color0}}};
   position: relative;
   padding: 5px 0;
 }
@@ -39,7 +39,7 @@
   bottom: 0;
   height: 2px;
   width: 0;
-  background-color: #FFFFFF;
+  background-color: {{{color0}}};
   transition: width 0.3s ease;
 }
 
@@ -50,8 +50,8 @@
 /* growing/shrinking button style */
 .growing-button {
   display: inline-block;
-  background-color: #FFFFFF;
-  color: #CC6600;
+  background-color: {{{color0}}};
+  color: {{{color1}}};
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
@@ -59,17 +59,17 @@
 }
 
 .growing-button:hover {
-  background-color: #CCDDAA;
+  background-color: {{{color0_alt}}};
   transform: scale(1.05);
 }
 
 .divider {
-  border-left: 1px solid #FFFFFF;
+  border-left: 1px solid {{{color0}}};
   height: 20px;
 }
 
 .footer {
-  background-color: #CC6600;
+  background-color: {{{color1}}};
   padding: 20px 0;
   text-align: center;
   display: flex;

@@ -12,7 +12,9 @@ echo Folder "%foldername%" has been created.
 xcopy ".\assets\*" "%foldername%\" /E /I /Y
 
 cd templates
-..\mustache.exe "blank.yml" "index_body.html" > ..\%foldername%\index.html
+..\mustache.exe "data.yml" "index_body.html" > ..\%foldername%\index.html
+..\mustache.exe "data.yml" "index_style.css" > ..\%foldername%\index\style.css
+..\mustache.exe "data.yml" "shared_style.css" > ..\%foldername%\shared\style.css
 
 echo Website built successfully
 pause

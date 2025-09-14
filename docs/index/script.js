@@ -1,21 +1,43 @@
+const countdownContent = (days, hours, minutes, seconds) =>
+    `
+<h3>
+<span class="countdown-cell">${days} Gün</span>
+<span class="countdown-cell">${hours} Sa</span>
+<span class="countdown-cell">${minutes} Dk</span>
+<span class="countdown-cell">${seconds} Sn</span>
+</h3>
+`;
+
+const applicationsClosedContent = "Başvuru süresi doldu!";
+const countdownFinishedContent = "Jamination 8 Başladı!";
+
+const eventDate = "2025-10-17T17:00:00.000+03:00";
+const applicationDeadline = "2025-10-07T17:00:00.000+03:00";    // TODO: Fill the correct date
+
 function updateCountdown() {
-    const targetDate = new Date("October 17, " + new Date().getFullYear() + " 00:00:00").getTime();
+    const targetDate = new Date(eventDate).getTime();
+    const applicationDate = new Date(applicationDeadline).getTime();
     const now = new Date().getTime();
     let diff = targetDate - now;
-
-    // If October 17 has passed this year, count until next year
-    if (diff < 0) {
-        const nextYear = new Date().getFullYear() + 1;
-        diff = new Date("October 17, " + nextYear + " 00:00:00").getTime() - now;
-    }
+    let applicationDiff = applicationDate - now;
 
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
     const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-    document.querySelector(".countdown").textContent =
-        `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    if (diff > 0) {
+        document.querySelector(".countdown").innerHTML = countdownContent(days, hours, minutes, seconds);
+        if (applicationDiff <= 0) {
+            const applyButton = document.querySelector(".start-date-section .growing-button");
+            applyButton.removeAttribute("href");
+            applyButton.textContent = applicationsClosedContent;
+        }
+    }
+    else {
+        document.querySelector(".countdown").textContent = countdownFinishedContent;
+        document.querySelector(".start-date-section .growing-button").style.visibility = "hidden";
+    }
 }
 
 // Run immediately and then update every second
