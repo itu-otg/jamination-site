@@ -3,7 +3,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #000;
   color: {{{color0}}};
@@ -44,6 +43,7 @@ section {
 .event-section {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
   padding-left: 20%;
@@ -54,9 +54,8 @@ section {
 .event-section .event-image img,
 .about-us-section .about-image img,
 .previous-events-section img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+  max-width: 20vw;
+  border-radius: 2vw;
 }
 
 .event-section .event-description {
@@ -105,4 +104,10 @@ section {
 .previous-events-section .prev-event-image {
   flex: 1;
   text-align: center;
+}
+
+.previous-events-section .prev-event-button
+{
+  margin: 0 100%;
+  white-space: nowrap;
 }

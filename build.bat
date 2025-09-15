@@ -18,3 +18,5 @@ cd templates
 
 echo Website built successfully
 pause
+
+..\%foldername%\index.html

@@ -6,6 +6,8 @@ color1: "#CC6600"
 color2: "#DD9955"
 color3: "#EEAA66"
 
+apply_url: "https://forms.gle/yourformlink"
+
 organizers:
 - name: İTÜ OTG
   url: http://otg.itu.edu.tr/
