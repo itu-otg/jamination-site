@@ -1,5 +1,3 @@
----
-
 # Renk kodları, 
 color0: "#FFFFFF"
 color0_alt: "#CCDDAA"
@@ -118,4 +116,4 @@ html_head: |
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/shared/style.css">
 
----
+# EOF

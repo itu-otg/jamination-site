@@ -1,6 +1,6 @@
 # Jamination Site
 
-This repository contains the source code and templates for the Jamination website.
+This repository contains the source code and the templates for the Jamination 8 website.
 
 ## Project Structure
 
@@ -13,7 +13,10 @@ This repository contains the source code and templates for the Jamination websit
 ## How to Build
 
 1. Ensure `mustache.exe` is available in the project root.
-2. Run `build.bat` to generate the site in the `docs/` directory.
+2. Ensure you have `python` and `http.server` installed in your machine to serve the site locally.
+3. Run `build.bat` to generate the site and serve it on `localhost:8080`.
+4. Pressing any key during this process will kill it and rebuild the site.
+5. Entering "docs" as the folder name will generate the files for github pages and won't serve it on localhost.
 
 ## Customization
 
@@ -24,4 +27,4 @@ This repository contains the source code and templates for the Jamination websit
 
 ## Deployment
 
-The generated site in `docs/` can be deployed to any static web host (e.g., GitHub Pages).
+The generated site can be deployed to any static web host (e.g., GitHub Pages).
