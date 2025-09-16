@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    {{{html_head}}}
+    <link rel="stylesheet" href="style.css">
+    <title>Jamination 8 - SSS</title>
+</head>
+<body>
+    {{>header}}
+
+    <section class="faq-section">
+    {{#faq}}
+        <div class="faq-item">
+            <h2>{{question}}</h2>
+            <p>&#x2022; {{answer}}</p>
+        </div>
+    {{/faq}}
+    </section>
+
+    {{>footer}}
+</body>
+</html>

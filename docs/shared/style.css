@@ -59,7 +59,7 @@ body {
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .growing-button:hover {
@@ -90,15 +90,20 @@ body {
   height: 40px;
 }
 
-.organizers img {
+.socials img {
   height: 40px;
+  padding: 0;
 }
 
-.organizers a {
+.socials a {
   margin: 0 10px;
   display: inline-block;
 }
 
-.organizers .growing-button {
+.socials .growing-button {
   background-color: transparent;
+}
+
+.socials .growing-button:hover {
+  filter: brightness(0.75);
 }

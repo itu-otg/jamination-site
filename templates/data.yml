@@ -1,16 +1,121 @@
 ---
 
+# Renk kodları, 
 color0: "#FFFFFF"
 color0_alt: "#CCDDAA"
 color1: "#CC6600"
 color2: "#DD9955"
 color3: "#EEAA66"
 
+# TODO: Başvuru linki, doğru linki eklemeyi unutma!
 apply_url: "https://forms.gle/yourformlink"
 
+socials:
+- name: "Instagram"
+  url: "https://www.instagram.com/jamination.official/"
+  icon: "/shared/instagram.png"
+- name: "X"
+  url: "https://x.com/jamination_"
+  icon: "/shared/x.png"
+- name: "Youtube"
+  url: "https://www.youtube.com/@jaminationofficial"
+  icon: "/shared/youtube.png"
+- name: "Linkedin"
+  url: "https://www.linkedin.com/company/jamination/"
+  icon: "/shared/linkedin.png"
+- name: "Itch.io"
+  url: "https://jaminationofficial.itch.io/"
+  icon: "/shared/itchio.png"
+
+# TODO: Organizatörler eklenecek, şu anlık sadece otg var
 organizers:
-- name: İTÜ OTG
-  url: http://otg.itu.edu.tr/
-  icon: shared/otg.png
+- name: "İTÜ OTG"
+  url: "http://otg.itu.edu.tr/"
+  icon: "/shared/otg.png"
+
+# TODO: Sponsorlar eklenecek, şu anlık placeholder var.
+sponsors:
+- group_title: "Altın Sponsor"
+  group_items:
+  - name: "Unity"
+    url: "https://unity.com/"
+    icon: "/shared/otg.png"
+- group_title: "Gümüş Sponsor"
+  group_items:
+  - name: "Unity"
+    url: "https://unity.com/"
+    icon: "/shared/otg.png"
+- group_title: "Bronz Sponsor"
+  group_items:
+  - name: "Unity"
+    url: "https://unity.com/"
+    icon: "/shared/otg.png"
+- group_title: "Mekan Sponsoru"
+  group_items:
+  - name: "Unity"
+    url: "https://unity.com/"
+    icon: "/shared/otg.png"
+
+# Sıkça Sorulan Sorular
+# TODO: Cevapları chatgpt yazdı, gözden geçirilmeli.
+
+faq:
+- question: "Jamination nedir?"
+  answer: "Jamination, oyun geliştirme meraklılarını bir araya getiren, belirli bir süre içinde sıfırdan oyun üretmeyi hedefleyen bir game jam etkinliğidir. Katılımcılar bireysel olarak veya takımlar halinde çalışarak yaratıcılıklarını ortaya koyar."
+- question: "Kimler katılabilir?"
+  answer: "Oyun geliştirmeye ilgi duyan herkes katılabilir. Öğrenci olmanız ya da profesyonel geliştirici olmanız gerekmez."
+- question: "Katılım ücreti var mı?"
+  answer: "Hayır, etkinliğe katılım tamamen ücretsizdir."
+- question: "Etkinlik nerelerde düzenlenecek?"
+  answer: "Etkinlik İstanbul, Ankara ve İzmir’de fiziksel alanlarda gerçekleştirilecek. Ayrıca çevrimiçi katılım da mümkündür."
+- question: "Etkinliğe tek başına katılabilir miyim?"
+  answer: "Evet, bireysel olarak katılabilirsiniz. Takım kurmanız zorunlu değildir fakat takım halinde katılmak sizin için daha eğlenceli olacaktır."
+- question: "Takımlar için maksimum üye sayısı nedir?"
+  answer: "Takımlar için belirlenmiş bir maksimum üye sınırı yoktur. Ancak iletişim ve iş bölümü açısından ideal olarak 2-5 kişilik ekipler önerilir."
+- question: "Birden fazla takımla katılabilir miyim?"
+  answer: "Evet, aynı kişi birden fazla takımda yer alabilir. Ancak zaman yönetimi açısından dikkatli olmanız tavsiye edilir."
+- question: "Takımdaki herkesin aynı şehirde olması gerekiyor mu?"
+  answer: "Hayır, takım üyeleri farklı şehirlerden hatta farklı ülkelerden bile katılabilir."
+- question: "Takımdaki herkesin öğrenci olması gerekiyor mu?"
+  answer: "Hayır, öğrenci olma şartı yoktur. Her yaştan ve meslekten kişiler katılabilir."
+- question: "Hazır asset kullanabilir miyim?"
+  answer: "Evet, hazır görsel, ses veya kod kütüphanelerini kullanabilirsiniz. Ancak bu assetlerin telif haklarına dikkat etmeniz gerekir."
+- question: "İstediğim oyun motorunu kullanabilir miyim?"
+  answer: "Evet, dilediğiniz oyun motorunu (Unity, Unreal, Godot vb.) veya kendi geliştirdiğiniz araçları kullanabilirsiniz."
+- question: "Dışarıdan veya diğer üyelerden yardım alabilir miyim?"
+  answer: "Evet, dışarıdan teknik veya sanatsal destek alabilirsiniz. Ancak oyun fikri ve üretim sürecinin çoğunluğu takımınız tarafından yürütülmelidir."
+- question: "Oyunumu nasıl yükleyeceğim?"
+  answer: "Oyunlar Itch.io üzerinden yüklenecek. Etkinlik bitiminde size özel bir proje sayfası açmanız beklenecek."
+- question: "Takımdaki herkesin oyunu yüklemesi gerekiyor mu?"
+  answer: "Hayır, yalnızca bir kişinin oyunu yüklemesi yeterlidir."
+- question: "Fiziksel alanı ziyaret edebilir miyim?"
+  answer: "Evet, etkinlik boyunca fiziksel alanları ziyaret edebilir ve diğer katılımcılarla tanışabilirsiniz."
+- question: "Yapay zeka kullanabilir miyim?"
+  answer: "Evet, yapay zeka araçlarını ve modellerini kullanabilirsiniz. Ancak kullanılan içeriklerin özgünlüğüne dikkat edilmesi tavsiye edilir."
+- question: "Etkinlik sırasında mini etkinlikler olacak mı?"
+  answer: "Evet, oyun geliştirme sürecini destekleyecek atölyeler, söyleşiler ve küçük sürpriz etkinlikler planlanmaktadır."
+- question: "Etkinlikte para ödülü verilecek mi?"
+  answer: "Hayır, etkinlik yarışma odaklı değildir. Amacımız öğrenmek, üretmek ve eğlenmektir."
+- question: "Etkinlikte yemek verilecek mi?"
+  answer: "Hayır, yiyecek ve içecek organizasyonu katılımcıların kendi sorumluluğundadır."
+- question: "Etkinlik sırasında internet erişimim olacak mı?"
+  answer: "Evet, fiziksel alanlarda internet erişimi sağlanacaktır."
+- question: "Oyunum hangi platformlarda oynanabilir olmalı?"
+  answer: "Oyunlarınızın en azından Web veya Windows üzerinde çalışabilir olması beklenmektedir. Daha fazla platform desteği (Mac, Linux, mobil) isteğe bağlıdır."
+- question: "Oyunumun uyması gereken tema ve kurallar var mı?"
+  answer: "Evet, açıklanacak olan bir temaya uygun olmalı ve genel kurallara uymalıdır. Oyunlarda cinsellik, siyaset, din ve aşırı şiddet içeren içerikler bulunmamalıdır."
+
+html_head: |
+  <meta charset="UTF-8">
+  <meta name="description" content="48 saat boyunca oyun geliştirme etkinliği Jamination 8, 17-19 Ekim tarihlerinde başlıyor!">
+  <meta property="og:title" content="Jamination 8">
+  <meta property="og:description" content="48 saat boyunca oyun geliştirme etkinliği Jamination 8, 17-19 Ekim tarihlerinde başlıyor!">
+  <meta property="og:image" content="/shared/logo.png">
+  <meta name="author" content="Kursat Kuyumcu">
+  <meta name="organization" content="ITU OTG">
+  <meta name="date" content="2025-09-16">
+  <link rel="icon" href="/shared/favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/shared/style.css">
 
 ---
