@@ -15,7 +15,7 @@ echo Folder "%foldername%" has been created.
     type "templates\data.yml"
     echo.
     if %foldername%==docs (
-        echo base_url: "<base href=\"/jamination-site\">"
+        echo base_url: "<base href=\"/jamination-site/\">"
     ) else (
         echo base_url: "<base href=\"/\">"
     )
