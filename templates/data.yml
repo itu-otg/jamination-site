@@ -11,25 +11,25 @@ apply_url: "https://forms.gle/yourformlink"
 socials:
 - name: "Instagram"
   url: "https://www.instagram.com/jamination.official/"
-  icon: "/shared/instagram.png"
+  icon: "shared/instagram.png"
 - name: "X"
   url: "https://x.com/jamination_"
-  icon: "/shared/x.png"
+  icon: "shared/x.png"
 - name: "Youtube"
   url: "https://www.youtube.com/@jaminationofficial"
-  icon: "/shared/youtube.png"
+  icon: "shared/youtube.png"
 - name: "Linkedin"
   url: "https://www.linkedin.com/company/jamination/"
-  icon: "/shared/linkedin.png"
+  icon: "shared/linkedin.png"
 - name: "Itch.io"
   url: "https://jaminationofficial.itch.io/"
-  icon: "/shared/itchio.png"
+  icon: "shared/itchio.png"
 
 # TODO: Organizatörler eklenecek, şu anlık sadece otg var
 organizers:
 - name: "İTÜ OTG"
   url: "http://otg.itu.edu.tr/"
-  icon: "/shared/otg.png"
+  icon: "shared/otg.png"
 
 # TODO: Sponsorlar eklenecek, şu anlık placeholder var.
 sponsors:
@@ -37,22 +37,22 @@ sponsors:
   group_items:
   - name: "Unity"
     url: "https://unity.com/"
-    icon: "/shared/otg.png"
+    icon: "shared/otg.png"
 - group_title: "Gümüş Sponsor"
   group_items:
   - name: "Unity"
     url: "https://unity.com/"
-    icon: "/shared/otg.png"
+    icon: "shared/otg.png"
 - group_title: "Bronz Sponsor"
   group_items:
   - name: "Unity"
     url: "https://unity.com/"
-    icon: "/shared/otg.png"
+    icon: "shared/otg.png"
 - group_title: "Mekan Sponsoru"
   group_items:
   - name: "Unity"
     url: "https://unity.com/"
-    icon: "/shared/otg.png"
+    icon: "shared/otg.png"
 
 # Sıkça Sorulan Sorular
 # TODO: Cevapları chatgpt yazdı, gözden geçirilmeli.
@@ -108,12 +108,10 @@ html_head: |
   <meta name="description" content="48 saat boyunca oyun geliştirme etkinliği Jamination 8, 17-19 Ekim tarihlerinde başlıyor!">
   <meta property="og:title" content="Jamination 8">
   <meta property="og:description" content="48 saat boyunca oyun geliştirme etkinliği Jamination 8, 17-19 Ekim tarihlerinde başlıyor!">
-  <meta property="og:image" content="/shared/logo.png">
+  <meta property="og:image" content="shared/logo.png">
   <meta name="author" content="Kursat Kuyumcu">
   <meta name="organization" content="ITU OTG">
   <meta name="date" content="2025-09-16">
-  <link rel="icon" href="/shared/favicon.png" type="image/png">
+  <link rel="icon" href="shared/favicon.png" type="image/png">
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/shared/style.css">
-
-# EOF
+  <link rel="stylesheet" href="shared/style.css">
