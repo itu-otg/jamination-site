@@ -8,6 +8,13 @@ color3: "#EEAA66"
 # TODO: Başvuru linki, doğru linki eklemeyi unutma!
 apply_url: "https://forms.gle/yourformlink"
 
+# Son başvuru tarihi, (TODO: placeholder, değişecek)
+apply_deadline: "10 Ekim"
+
+# Etkinlik açıklaması ve hakkımızda metni, (TODO: placeholder, değişecek)
+event_description: "Jamination, Türkiye’nin farklı üniversite toplulukları ve bağımsız geliştiricilerinin bir araya gelerek düzenlediği kolektif bir game jam etkinliğidir. 48 saat sürecek bu maratonda katılımcılar, açıklanan tema doğrultusunda ekipleriyle oyun geliştirip finalde sunma fırsatı bulurlar. Eş zamanlı yüz yüze bir çok merkezde gerçekleşen etkinlik, meraklısından profesyoneline herkese açıktır."
+about_us: "Jamination ekibi olarak, oyun geliştirme kültürünü yaygınlaştırmayı, farklı toplulukları bir araya getirmeyi ve genç geliştiricilere üretim ortamı sunmayı hedefliyoruz. Birçok üniversite topluluğunun iş birliğiyle şekillenen bu etkinlik serisinde, katılımcılara yalnızca oyun yapma deneyimi değil; aynı zamanda networking, öğrenme ve birlikte üretmenin keyfini yaşatıyoruz."
+
 socials:
 - name: "Instagram"
   url: "https://www.instagram.com/jamination.official/"
@@ -38,8 +45,14 @@ sponsors:
   - name: "Unity"
     url: "https://unity.com/"
     icon: "shared/otg.png"
+  - name: "Unity"
+    url: "https://unity.com/"
+    icon: "shared/otg.png"
 - group_title: "Gümüş Sponsor"
   group_items:
+  - name: "Unity"
+    url: "https://unity.com/"
+    icon: "shared/otg.png"
   - name: "Unity"
     url: "https://unity.com/"
     icon: "shared/otg.png"
@@ -48,15 +61,20 @@ sponsors:
   - name: "Unity"
     url: "https://unity.com/"
     icon: "shared/otg.png"
+  - name: "Unity"
+    url: "https://unity.com/"
+    icon: "shared/otg.png"
 - group_title: "Mekan Sponsoru"
   group_items:
+  - name: "Unity"
+    url: "https://unity.com/"
+    icon: "shared/otg.png"
   - name: "Unity"
     url: "https://unity.com/"
     icon: "shared/otg.png"
 
 # Sıkça Sorulan Sorular
 # TODO: Cevapları chatgpt yazdı, gözden geçirilmeli.
-
 faq:
 - question: "Jamination nedir?"
   answer: "Jamination, oyun geliştirme meraklılarını bir araya getiren, belirli bir süre içinde sıfırdan oyun üretmeyi hedefleyen bir game jam etkinliğidir. Katılımcılar bireysel olarak veya takımlar halinde çalışarak yaratıcılıklarını ortaya koyar."
@@ -103,6 +121,7 @@ faq:
 - question: "Oyunumun uyması gereken tema ve kurallar var mı?"
   answer: "Evet, açıklanacak olan bir temaya uygun olmalı ve genel kurallara uymalıdır. Oyunlarda cinsellik, siyaset, din ve aşırı şiddet içeren içerikler bulunmamalıdır."
 
+# HTML head içeriği, (TODO: Sonradan değiştirilebilir)
 html_head: |
   <meta charset="UTF-8">
   <meta name="description" content="48 saat boyunca oyun geliştirme etkinliği Jamination 8, 17-19 Ekim tarihlerinde başlıyor!">
