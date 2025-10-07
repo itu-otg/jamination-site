@@ -5,13 +5,13 @@ color1: "#CC6600"
 color2: "#DD9955"
 color3: "#EEAA66"
 
-# TODO: Başvuru linki, doğru linki eklemeyi unutma!
-apply_url: "https://forms.gle/yourformlink"
+# Başvuru linki
+apply_url: "https://forms.gle/9kuoT1yS1gjntA5e7"
 
-# Son başvuru tarihi, (TODO: placeholder, değişecek)
-apply_deadline: "10 Ekim"
+# Son başvuru tarihi
+apply_deadline: "12 Ekim"
 
-# Etkinlik açıklaması ve hakkımızda metni, (TODO: placeholder, değişecek)
+# Etkinlik açıklaması ve hakkımızda metni,
 event_description: "Jamination, Türkiye’nin farklı üniversite toplulukları ve bağımsız geliştiricilerinin bir araya gelerek düzenlediği kolektif bir game jam etkinliğidir. 48 saat sürecek bu maratonda katılımcılar, açıklanan tema doğrultusunda ekipleriyle oyun geliştirip finalde sunma fırsatı bulurlar. Eş zamanlı yüz yüze bir çok merkezde gerçekleşen etkinlik, meraklısından profesyoneline herkese açıktır."
 about_us: "Jamination ekibi olarak, oyun geliştirme kültürünü yaygınlaştırmayı, farklı toplulukları bir araya getirmeyi ve genç geliştiricilere üretim ortamı sunmayı hedefliyoruz. Birçok üniversite topluluğunun iş birliğiyle şekillenen bu etkinlik serisinde, katılımcılara yalnızca oyun yapma deneyimi değil; aynı zamanda networking, öğrenme ve birlikte üretmenin keyfini yaşatıyoruz."
 
@@ -32,11 +32,32 @@ socials:
   url: "https://jaminationofficial.itch.io/"
   icon: "shared/itchio.png"
 
-# TODO: Organizatörler eklenecek, şu anlık sadece otg var
+# Organizatörler
 organizers:
+- name: "BUG ZONE"
+  url: "https://bugzone.dev/"
+  icon: "sponsors/bug-zone.png"
+- name: "DEU POG"
+  url: "https://www.deupog.com/"
+  icon: "sponsors/deu-pog.png"
+- name: "DEU ANIMA"
+  url: "https://www.instagram.com/deuanima/"
+  icon: "sponsors/deu-anima.png"
 - name: "İTÜ OTG"
   url: "http://otg.itu.edu.tr/"
-  icon: "shared/otg.png"
+  icon: "sponsors/otg.png"
+- name: "METU GATES"
+  url: "https://metugates.com/"
+  icon: "sponsors/metu-gates.png"
+- name: "İSÜ GDC DOTTOPUS"
+  url: "https://linktr.ee/Dottopus"
+  icon: "sponsors/dottopus.png"
+- name: "ÜNOG"
+  url: "https://unog.dev/"
+  icon: "sponsors/unog.png"
+- name: "YTÜ DOGDOK"
+  url: "https://www.instagram.com/ytu_dogdok/"
+  icon: "sponsors/ytu-dogdok.png"
 
 # TODO: Sponsorlar eklenecek, şu anlık placeholder var.
 sponsors:
@@ -85,7 +106,7 @@ faq:
 - question: "Etkinlik nerelerde düzenlenecek?"
   answer: "Etkinlik İstanbul, Ankara ve İzmir’de fiziksel alanlarda gerçekleştirilecek. Ayrıca çevrimiçi katılım da mümkündür."
 - question: "Etkinliğe tek başına katılabilir miyim?"
-  answer: "Evet, bireysel olarak katılabilirsiniz. Takım kurmanız zorunlu değildir fakat takım halinde katılmak sizin için daha eğlenceli olacaktır."
+  answer: "Evet, bireysel olarak katılabilirsiniz. Takım kurmanız zorunlu değildir fakat takım olarak çalışmanız sizin için daha eğlenceli olacaktır."
 - question: "Takımlar için maksimum üye sayısı nedir?"
   answer: "Takımlar için belirlenmiş bir maksimum üye sınırı yoktur. Ancak iletişim ve iş bölümü açısından ideal olarak 2-5 kişilik ekipler önerilir."
 - question: "Birden fazla takımla katılabilir miyim?"
@@ -130,7 +151,7 @@ html_head: |
   <meta property="og:image" content="http://itu-otg.github.io/jamination-site/shared/logo.png">
   <meta name="author" content="Kursat Kuyumcu">
   <meta name="organization" content="ITU OTG">
-  <meta name="date" content="2025-09-16">
+  <meta name="date" content="2025-10-07">
   <link rel="icon" href="shared/favicon.png" type="image/png">
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="shared/style.css">
