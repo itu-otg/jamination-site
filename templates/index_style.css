@@ -93,12 +93,20 @@ section {
 
 /* Previous Events Section */
 .previous-events-section {
+  background-color: {{{color2}}};
+}
+
+.previous-events-section h1 {
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+
+.previous-events-posters {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  background-color: {{{color2}}};
 }
 
 .previous-events-section .prev-event-button
