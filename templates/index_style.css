@@ -101,13 +101,22 @@ section {
   background-color: {{{color2}}};
 }
 
+.previous-events-section .prev-event-button
+{
+  margin: 0 100%;
+  white-space: nowrap;
+}
+
 .previous-events-section .prev-event-image {
   flex: 1;
   text-align: center;
 }
 
-.previous-events-section .prev-event-button
-{
-  margin: 0 100%;
-  white-space: nowrap;
+.previous-events-section .prev-event-image img {
+  transition: ease 0.3s;
+}
+
+.previous-events-section .prev-event-image img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

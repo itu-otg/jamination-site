@@ -12,7 +12,6 @@ const applicationsClosedContent = "Başvuru süresi doldu!";
 const countdownFinishedContent = "Jamination 8 Başladı!";
 
 const eventDate = "2025-10-17T17:00:00.000+03:00";
-const applicationDeadline = "2025-10-13T00:00:00.000+03:00";
 
 function updateCountdown() {
     const targetDate = new Date(eventDate).getTime();
