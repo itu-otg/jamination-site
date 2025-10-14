@@ -8,9 +8,10 @@ const countdownContent = (days, hours, minutes, seconds) =>
 </h3>
 `;
 
+const applicationDeadlineText = document.getElementById("application-deadline-text");
+
 const applicationsClosedContent = "Başvuru süresi doldu!";
 const countdownFinishedContent = "Jamination 8 Başladı!";
-
 const eventDate = "2025-10-17T17:00:00.000+03:00";
 
 function updateCountdown() {
@@ -28,14 +29,11 @@ function updateCountdown() {
     if (diff > 0) {
         document.querySelector(".countdown").innerHTML = countdownContent(days, hours, minutes, seconds);
         if (applicationDiff <= 0) {
-            const applyButton = document.querySelector(".start-date-section .growing-button");
-            applyButton.removeAttribute("href");
-            applyButton.textContent = applicationsClosedContent;
+            applicationDeadlineText.textContent = applicationsClosedContent;
         }
     }
     else {
         document.querySelector(".countdown").textContent = countdownFinishedContent;
-        document.querySelector(".start-date-section .growing-button").style.visibility = "hidden";
     }
 }
 
