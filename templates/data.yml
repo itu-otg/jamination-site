@@ -59,40 +59,39 @@ organizers:
   url: "https://www.instagram.com/ytu_dogdok/"
   icon: "sponsors/ytu-dogdok.png"
 
-# TODO: Sponsorlar eklenecek, şu anlık placeholder var.
+# Sponsorlar
 sponsors:
-- group_title: "Altın Sponsor"
-  group_items:
-  - name: "Unity"
-    url: "https://unity.com/"
-    icon: "shared/otg.png"
-  - name: "Unity"
-    url: "https://unity.com/"
-    icon: "shared/otg.png"
 - group_title: "Gümüş Sponsor"
   group_items:
-  - name: "Unity"
-    url: "https://unity.com/"
-    icon: "shared/otg.png"
-  - name: "Unity"
-    url: "https://unity.com/"
-    icon: "shared/otg.png"
+  - name: "Taleworlds Entertainment"
+    url: "https://www.taleworlds.com/"
+    icon: "sponsors/taleworlds.png"
 - group_title: "Bronz Sponsor"
   group_items:
-  - name: "Unity"
-    url: "https://unity.com/"
-    icon: "shared/otg.png"
-  - name: "Unity"
-    url: "https://unity.com/"
-    icon: "shared/otg.png"
-- group_title: "Mekan Sponsoru"
+  - name: "Fiuby"
+    url: "https://fiuby.com/"
+    icon: "sponsors/fiuby.png"
+- group_title: "Ürün Sponsorları"
   group_items:
-  - name: "Unity"
-    url: "https://unity.com/"
-    icon: "shared/otg.png"
-  - name: "Unity"
-    url: "https://unity.com/"
-    icon: "shared/otg.png"
+  - name: "Wraith"
+    url: "https://wraithesports.com/"
+    icon: "sponsors/wraith.png"
+  - name: "XPG"
+    url: "https://www.xpg.com/"
+    icon: "sponsors/xpg.png"
+- group_title: "Mekan Sponsoru (Ankara)"
+  group_items:
+  - name: "Teknopark Ankara"
+    url: "https://www.teknoparkankara.com.tr/"
+    icon: "sponsors/teknopark-ankara.png"
+  - name: "Nar Girişim Ofisi"
+    url: "https://www.nargirisimofisi.com/"
+    icon: "sponsors/nar.png"
+- group_title: "Yemek Sponsoru (Ankara)"
+  group_items:
+  - name: "ADL Kurumsal Hizmetler"
+    url: "https://adlkurumsal.com.tr/"
+    icon: "sponsors/adl.png"
 
 # Sıkça Sorulan Sorular
 # TODO: Cevapları chatgpt yazdı, gözden geçirilmeli.
