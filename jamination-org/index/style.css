@@ -1,0 +1,130 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  line-height: 1.6;
+  background-color: #CC6600;
+  color: #FFFFFF;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+/* Start Date Section */
+.start-date-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  background-color: #DD9955;
+}
+
+.start-date-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.start-date-section .countdown {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.start-date-section .countdown .countdown-cell {
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #EEAA66;
+}
+
+/* Event Section */
+.event-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #EEAA66;
+}
+
+.event-section .event-image img,
+.about-us-section .about-image img,
+.previous-events-section img {
+  max-height: calc(12vw + 160px);
+  border-radius: 40px;
+}
+
+.event-section .event-description {
+  flex: 1;
+}
+
+/* About Us Section */
+.about-us-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #DD9955;
+}
+
+.about-us-section .about-description {
+  flex: 1;
+}
+
+/* Contact Us Section */
+.contact-us-section {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EEAA66;
+}
+
+.contact-us-section h1
+{
+  padding: 0 20px;
+}
+
+/* Previous Events Section */
+.previous-events-section {
+  background-color: #DD9955;
+}
+
+.previous-events-section h1 {
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+
+.previous-events-posters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.previous-events-section .prev-event-button
+{
+  margin: 0 100%;
+  white-space: nowrap;
+}
+
+.previous-events-section .prev-event-image {
+  flex: 0.2;
+  text-align: center;
+}
+
+.previous-events-section .prev-event-image img {
+  transition: ease 0.3s;
+}
+
+.previous-events-section .prev-event-image img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
