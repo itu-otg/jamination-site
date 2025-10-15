@@ -54,8 +54,8 @@ section {
 .event-section .event-image img,
 .about-us-section .about-image img,
 .previous-events-section img {
-  max-height: 240px;
-  border-radius: 24px;
+  max-height: calc(12vw + 160px);
+  border-radius: 40px;
 }
 
 .event-section .event-description {
