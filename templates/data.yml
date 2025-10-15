@@ -116,7 +116,6 @@ sponsors:
   
 
 # Sıkça Sorulan Sorular
-# TODO: Cevapları chatgpt yazdı, gözden geçirilmeli.
 faq:
 - question: "Jamination nedir?"
   answer: "Jamination, oyun geliştirme meraklılarını bir araya getiren, belirli bir süre içinde sıfırdan oyun üretmeyi hedefleyen bir game jam etkinliğidir. Katılımcılar bireysel olarak veya takımlar halinde çalışarak yaratıcılıklarını ortaya koyar."

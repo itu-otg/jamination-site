@@ -41,7 +41,7 @@ body {
 }
 
 .sponsors-section .sponsor-items img {
-  max-height: 8vh;
+  max-height: 6vw;
   padding: 24px;
   object-fit: contain;
   transition: transform 0.2s ease;
