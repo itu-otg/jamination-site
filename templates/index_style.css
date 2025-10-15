@@ -105,7 +105,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
   flex-wrap: wrap;
 }
 
@@ -116,7 +116,7 @@ section {
 }
 
 .previous-events-section .prev-event-image {
-  flex: 1;
+  flex: 0.2;
   text-align: center;
 }
 
