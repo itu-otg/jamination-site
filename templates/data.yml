@@ -79,7 +79,30 @@ sponsors:
   - name: "XPG"
     url: "https://www.xpg.com/"
     icon: "sponsors/xpg.png"
-- group_title: "Mekan Sponsoru (Ankara)"
+  - name: "Redbull"
+    url: "https://www.redbull.com/"
+    icon: "sponsors/redbull.png"
+- group_title: "Yemek Sponsorları"
+  group_items:
+  - name: "ADL Kurumsal Hizmetler"
+    url: "https://adlkurumsal.com.tr/"
+    icon: "sponsors/adl.png"
+  - name: "Acarlar Unlu Mamüller"
+    url: "https://www.acarlarunlumamulleri.com/"
+    icon: "sponsors/acar.png"
+  - name: "İnceoğlu Ekmek & Un Ürünleri"
+    url: "https://www.inceoglu.com.tr/"
+    icon: "sponsors/inceoglu.png"
+  - name: "KEBO"
+    url: "https://kebo.com.tr/"
+    icon: "sponsors/kebo.png"
+  - name: "Pasaport Pizza"
+    url: "https://www.pasaportpizza.com/"
+    icon: "sponsors/pasaport-pizza.png"
+  - name: "Pizza Bulls"
+    url: "https://www.pizzabulls.com.tr/"
+    icon: "sponsors/pizza-bulls.png"
+- group_title: "Mekan Sponsorları"
   group_items:
   - name: "Teknopark Ankara"
     url: "https://www.teknoparkankara.com.tr/"
@@ -87,11 +110,10 @@ sponsors:
   - name: "Nar Girişim Ofisi"
     url: "https://www.nargirisimofisi.com/"
     icon: "sponsors/nar.png"
-- group_title: "Yemek Sponsoru (Ankara)"
-  group_items:
-  - name: "ADL Kurumsal Hizmetler"
-    url: "https://adlkurumsal.com.tr/"
-    icon: "sponsors/adl.png"
+  - name: "DEPARK TGB"
+    url: "https://www.depark.com/"
+    icon: "sponsors/depark.png"
+  
 
 # Sıkça Sorulan Sorular
 # TODO: Cevapları chatgpt yazdı, gözden geçirilmeli.
@@ -147,10 +169,10 @@ html_head: |
   <meta name="description" content="48 saat boyunca oyun geliştirme etkinliği Jamination 8, 17-19 Ekim tarihlerinde başlıyor!">
   <meta property="og:title" content="Jamination 8">
   <meta property="og:description" content="48 saat boyunca oyun geliştirme etkinliği Jamination 8, 17-19 Ekim tarihlerinde başlıyor!">
-  <meta property="og:image" content="http://itu-otg.github.io/jamination-site/shared/logo.png">
+  <meta property="og:image" content="http://itu-otg.github.io/jamination-site/index/j8-poster1.png">
   <meta name="author" content="Kursat Kuyumcu">
   <meta name="organization" content="ITU OTG">
-  <meta name="date" content="2025-10-07">
+  <meta name="date" content="2025-10-15">
   <link rel="icon" href="shared/favicon.png" type="image/png">
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="shared/style.css">
